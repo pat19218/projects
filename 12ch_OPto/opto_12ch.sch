@@ -4292,7 +4292,7 @@ W = angled&lt;p&gt;
 <label x="-144.78" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="SCL" class="0">
 <segment>
 <pinref part="U10" gate="A" pin="SCL"/>
 <pinref part="R13" gate="G$1" pin="2"/>
@@ -4302,9 +4302,10 @@ W = angled&lt;p&gt;
 <wire x1="-205.74" y1="7.62" x2="-203.2" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-203.2" y1="7.62" x2="-203.2" y2="20.32" width="0.1524" layer="91"/>
 <junction x="-203.2" y="20.32"/>
+<label x="-203.2" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="SDA" class="0">
 <segment>
 <pinref part="U10" gate="A" pin="SDA"/>
 <pinref part="R14" gate="G$1" pin="2"/>
@@ -4314,6 +4315,7 @@ W = angled&lt;p&gt;
 <wire x1="-205.74" y1="5.08" x2="-203.2" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="-203.2" y1="5.08" x2="-203.2" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="-203.2" y="-7.62"/>
+<label x="-203.2" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$23" class="0">

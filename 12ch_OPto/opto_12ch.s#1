@@ -3090,7 +3090,6 @@ W = angled&lt;p&gt;
 <part name="C4" library="SparkFun" deviceset="CAP_POL" device="1206" value="10uF"/>
 <part name="R31" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="330"/>
 <part name="GND13" library="SparkFun" deviceset="GND" device=""/>
-<part name="JP18" library="SparkFun" deviceset="M02" device="-JST-2MM-SMT"/>
 <part name="JP22" library="SparkFun" deviceset="M02" device="PTH"/>
 <part name="U19" library="mike-temp" deviceset="MOC3063*" device="S" value="MOC3063S"/>
 <part name="R32" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="390"/>
@@ -3191,10 +3190,6 @@ W = angled&lt;p&gt;
 </instance>
 <instance part="GND13" gate="1" x="2.54" y="17.78" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="5.08" y="15.24" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="JP18" gate="G$1" x="12.7" y="17.78" smashed="yes" rot="MR90">
-<attribute name="NAME" x="18.542" y="15.24" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="22.098" y="36.83" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="JP22" gate="G$1" x="30.48" y="17.78" smashed="yes" rot="R90">
 <attribute name="VALUE" x="35.56" y="15.24" size="1.778" layer="96" rot="R90"/>
@@ -3487,14 +3482,10 @@ W = angled&lt;p&gt;
 <nets>
 <net name="GND" class="0">
 <segment>
-<wire x1="12.7" y1="25.4" x2="12.7" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="27.94" x2="2.54" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="27.94" x2="2.54" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="25.4" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="27.94" x2="12.7" y2="27.94" width="0.1524" layer="91"/>
-<junction x="12.7" y="27.94"/>
+<wire x1="27.94" y1="27.94" x2="2.54" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
-<pinref part="JP18" gate="G$1" pin="1"/>
 <pinref part="JP22" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -4084,13 +4075,9 @@ W = angled&lt;p&gt;
 </net>
 <net name="INV" class="0">
 <segment>
-<wire x1="15.24" y1="25.4" x2="15.24" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="30.48" x2="2.54" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="25.4" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="30.48" x2="15.24" y2="30.48" width="0.1524" layer="91"/>
-<junction x="15.24" y="30.48"/>
+<wire x1="30.48" y1="30.48" x2="2.54" y2="30.48" width="0.1524" layer="91"/>
 <label x="2.54" y="30.48" size="1.778" layer="95"/>
-<pinref part="JP18" gate="G$1" pin="2"/>
 <pinref part="JP22" gate="G$1" pin="1"/>
 </segment>
 <segment>
